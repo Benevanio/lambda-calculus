@@ -33,7 +33,7 @@ O **Lambda Cálculo** é um sistema formal criado por **Alonzo Church** nos anos
 
 ```
 lambda-calculus/
-├── src/                  # Código-fonte da implementação (interpretador ou redutor)
+├── lambda-calculus.js               # Código-fonte da implementação (interpretador ou redutor)
 ├── README.md             # Este arquivo
 └── LICENSE
 ```
