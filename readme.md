@@ -99,7 +99,3 @@ Sinta-se à vontade para abrir issues, enviar pull requests ou propor novos exem
 ## 📝 Licença
 
 Distribuído sob a licença MIT. Consulte `LICENSE` para mais informações.
-
----
-
-Se quiser, posso gerar esse README adaptado ao seu projeto (por exemplo, se estiver usando Python, JS, etc.) ou adicionar imagens, fluxogramas ou exemplos mais complexos. Deseja isso?
