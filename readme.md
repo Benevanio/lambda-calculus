@@ -33,9 +33,12 @@ O **Lambda Cálculo** é um sistema formal criado por **Alonzo Church** nos anos
 
 ```
 lambda-calculus/
-├── lambda-calculus.js               # Código-fonte da implementação (interpretador ou redutor)
-├── README.md             # Este arquivo
-└── LICENSE
+├── index.html                     # Frontend da calculadora
+├── src/
+│   ├── app.js                     # Interações da interface
+│   ├── lambda-calculus.js         # Núcleo com combinadores e números de Church
+│   └── styles.css                 # Estilos do frontend
+└── README.md
 ```
 
 ---
@@ -53,12 +56,9 @@ Este projeto pode ser implementado em várias linguagens. Algumas sugestões:
 
 ## 🚀 Como executar
 
-**Exemplo em JavaScript (Node.js):**
-
-```bash
-git clone https://github.com/seu-usuario/lambda-calculus.git
-cd lambda-calculus
-```
+1. Abra a pasta no VS Code.
+2. Abra o arquivo `index.html` no navegador (ou use a extensão Live Server).
+3. Use os botões de exemplos e a calculadora para testar expressões.
 
 ---
 

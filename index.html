@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lambda Calculus Lab</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="src/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="hero">
+      <p class="kicker">JavaScript + Lambda Calculus</p>
+      <h1>Calculadora de Lambda Cálculo</h1>
+      <p class="subtitle">
+        Teste combinadores, booleanos de Church e operações com números de Church em tempo real.
+      </p>
+    </header>
+
+    <section class="panel">
+      <h2>Exemplos rápidos</h2>
+      <div id="examples" class="examples"></div>
+    </section>
+
+    <section class="panel">
+      <h2>Calculadora</h2>
+      <form id="calculator" class="calculator">
+        <label>
+          Categoria
+          <select id="mode" name="mode">
+            <option value="boolean">Booleanos</option>
+            <option value="number">Números de Church</option>
+          </select>
+        </label>
+
+        <label>
+          Operação
+          <select id="operation" name="operation"></select>
+        </label>
+
+        <label>
+          Valor A
+          <input id="valueA" name="valueA" type="text" value="TRUE" />
+        </label>
+
+        <label>
+          Valor B
+          <input id="valueB" name="valueB" type="text" value="FALSE" />
+        </label>
+
+        <button type="submit">Executar</button>
+      </form>
+
+      <div class="output">
+        <h3>Resultado</h3>
+        <pre id="result">Selecione uma operação e clique em Executar.</pre>
+      </div>
+    </section>
+  </main>
+
+  <script src="src/lambda-calculus.js" defer></script>
+  <script src="src/app.js" defer></script>
+</body>
+</html>
